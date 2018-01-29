@@ -1,0 +1,27 @@
+.main {
+    font-family: 'Sura', serif;
+}
+
+.section {
+    display: table; // Let container element behave like a table
+}
+
+.sectionPokemon {
+    display: table;
+    width: 100% // Expand section to the whole page
+}
+
+.column {
+    display: table-cell; // Let container elements behave like table cells
+    //border: 1px solid;
+    padding: 1px;
+}
+
+a {
+    -webkit-transition: 0.3s;
+    opacity: 0.9;
+}
+
+a:hover {
+    opacity: 1;
+}
