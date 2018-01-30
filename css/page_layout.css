@@ -1,5 +1,14 @@
+ul {
+    list-style: none;
+}
+
 .main {
     font-family: 'Sura', serif;
+}
+
+.header {
+    text-align: center;
+    
 }
 
 .section {
@@ -19,6 +28,7 @@
 
 a {
     -webkit-transition: 0.3s;
+    transition: 0.3s;
     opacity: 0.9;
 }
 
