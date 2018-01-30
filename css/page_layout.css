@@ -11,7 +11,7 @@
     display: table; // Let container element behave like a table
 }
 
-.sectionPokemon {
+.section_pokemon {
     display: table;
     width: 100% // Expand section to the whole page
 }
@@ -20,6 +20,10 @@
     display: table-cell; // Let container elements behave like table cells
     //border: 1px solid;
     padding: 1px;
+}
+
+.profile_footer {
+    text-align: center;
 }
 
 a {
