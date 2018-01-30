@@ -1,5 +1,8 @@
 .main {
     font-family: 'Sura', serif;
+    color: #474F5B;
+    //background: #DAE6EF;
+    background: #FEFEFF;
 }
 
 .header {
@@ -24,6 +27,11 @@
 
 .footer_profile {
     text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    //font-style: italic;
 }
 
 a {
