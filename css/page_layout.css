@@ -1,7 +1,3 @@
-ul {
-    list-style: none;
-}
-
 .main {
     font-family: 'Sura', serif;
 }
@@ -34,4 +30,8 @@ a {
 
 a:hover {
     opacity: 1;
+}
+
+ul {
+    list-style: none;
 }
