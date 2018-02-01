@@ -7,31 +7,34 @@
 
 .header {
     text-align: center;
-    
 }
-
-.section {
-    display: table; // Let container element behave like a table
-}
-
-.section_pokemon {
-    display: table;
-    width: 100% // Expand section to the whole page
-}
-
-.column {
-    display: table-cell; // Let container elements behave like table cells
-    //border: 1px solid;
-    padding: 1px;
-}
-
-.footer_profile {
+.footer {
     text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
-    //font-style: italic;
+.section {
+    //display: table; // Let container element behave like a table
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.download {
+    opacity: 0.9;
+    font-family: sans-serif;
+    background: #474F5B;
+    color: #FEFEFF;
+    display: block;
+    width: 100px;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+h2, h3, h5, h6 {
+    //border-style: solid dotted;
+    margin-bottom: -22px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 a {
@@ -46,4 +49,27 @@ a:hover {
 
 ul {
     list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
+
+p {
+    margin: 0px;
+}
+
+
+
+/*
+.section_pokemon {
+    display: table;
+    width: 100% // Expand section to the whole page
+}
+
+.column {
+    display: table-cell; // Let container elements behave like table cells
+    //border: 1px solid;
+    padding: 1px;
+}
+*/
