@@ -3,6 +3,7 @@
     color: #474F5B;
     //background: #DAE6EF;
     background: #FEFEFF;
+    margin: 100px;
 }
 
 .header {
@@ -20,11 +21,11 @@
 
 .download {
     opacity: 0.9;
-    font-family: sans-serif;
+    font-family: 'Sura', sans-serif;
     background: #474F5B;
     color: #FEFEFF;
     display: block;
-    width: 100px;
+    width: 95px;
     padding: 15px;
     border-radius: 5px;
     text-decoration: none;
@@ -36,7 +37,7 @@ h1, h2, h3, h4, h5, h6{
 
 h2, h3, h5, h6 {
     //border-style: solid dotted;
-    margin-bottom: -22px;
+    margin-bottom: -16px;
     margin-left: 0px;
     margin-right: 0px;
 }
@@ -45,6 +46,8 @@ a {
     -webkit-transition: 0.3s;
     transition: 0.3s;
     opacity: 0.9;
+    text-decoration: none;
+    color: #429CC8;
 }
 
 a:hover {
