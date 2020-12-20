@@ -1,7 +1,7 @@
 .main {
     font-family: 'Sura', serif;
     color: #474F5B;
-    //background: #DAE6EF;
+    /*background: #DAE6EF;*/
     background: #FEFEFF;
     margin: 100px;
 }
@@ -14,7 +14,7 @@
 }
 
 .section {
-    //display: table; // Let container element behave like a table
+    /*display: table; // Let container element behave like a table*/
     margin-bottom: 40px;
     margin-top: 40px;
 }
@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h2, h3, h5, h6 {
-    //border-style: solid dotted;
+    /*border-style: solid dotted;*/
     margin-bottom: -16px;
     margin-left: 0px;
     margin-right: 0px;
